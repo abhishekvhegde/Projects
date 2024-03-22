@@ -1,16 +1,16 @@
 from ast import Num
 from importlib.util import spec_from_file_location
 from sys import _enablelegacywindowsfsencoding
-from tokenize import Double
-import pyttsx3
-import speech_recognition as sr
-import webbrowser
-import pywhatkit
-import os
-import wikipedia
-import pyautogui
+from tokenize import Double #used to convert sentences to tokens
+import pyttsx3  #used for speech recognition
+import speech_recognition as sr   #used to understand human speech
+import webbrowser # can open any url or search in google
+import pywhatkit # can be used to play youtube videos and whatsapp automation
+import os  #creating files and opening files and directories
+import wikipedia # wikipidea to sumarize wikipedia page
+import pyautogui # mouse and keyboard control (screen shot)
 import time
-import keyboard
+import keyboard # helps to enter keys 
 
 Assistant= pyttsx3.init('sapi5')
 voices=Assistant.getProperty('voices')
